@@ -58,10 +58,27 @@ export const Project=()=>{
                             
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">
+                        <h3 className="text-xl font-bold mb-2">3. Burger-mania Food Website</h3>
+                       
+                        <p className="text-gray-100 mb-4">
+                        This project is a modern Add to Cart system built using HTML, CSS, and react, designed to showcase key frontend skills such as dynamic DOM manipulation, browser storage management, and responsive UI design.Also used Emailjs API.</p>
+                        <div className="flex flex-wrap gap-2">
+                                {skills2.map((tech,key)=>(
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">
+                                        {tech}
+
+                                    </span>
+                                ))}
+                            </div>
+                            
+                    </div>
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">
                         <h3 className="text-xl font-bold mb-2">3. Student Management System (Internship Project)</h3>
                        
                         <p className="text-gray-100 mb-4">
-                        A simple CRUD-based desktop application developed during my internship. It allows users to Create, Read, Update, and Delete student records using a MySQL database. This project helped strengthen my understanding of database connectivity using JDBC and performing operations without using JSP/Servlets.</p>
+                        A simple CRUD-based desktop application developed during my internship. It allows users to Create, Read, Update, and Delete student records using a MySQL database.</p>
                         <div className="flex flex-wrap gap-2">
                                 {skills2.map((tech,key)=>(
                                     <span 
